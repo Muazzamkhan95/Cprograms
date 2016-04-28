@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+int main(){
+  int first_number,Second_number;
+  float result;
+  char op;
+  printf("Enter First Number");
+  scanf("%d",&first_number);
+  printf("Enter Second Number");
+  scanf("%d",&secon_number);
+  printf("Enter Operator");
+  scanf("%c",&op);
+  if(op=='+'){
+    result = first_number + Second_number;
+  }else if(op=='-'){
+    result = first_number - Second_number;
+  }else if(op=='*'){
+    result = first_number * Second_number;
+  }else if(op=='/'){
+    result = first_number / Second_number;
+  }
+   printf("Result = %d",result);
+  getche();
+  return 0;
+}
